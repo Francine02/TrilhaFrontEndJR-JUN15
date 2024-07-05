@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,6 +565,14 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .flex {
@@ -571,12 +583,34 @@ video {
   display: grid;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .w-16 {
   width: 4rem;
 }
 
 .w-64 {
   width: 16rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+@keyframes slide {
+  0% {
+    right: -110%;
+  }
+
+  100% {
+    right: calc(+100% + 60rem);
+  }
+}
+
+.animate-slide {
+  animation: slide 17s linear infinite;
 }
 
 .grid-cols-1 {
@@ -595,8 +629,27 @@ video {
   justify-content: space-between;
 }
 
-.text-pretty {
-  text-wrap: pretty;
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.border-y-4 {
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+.border-\[\#e53939\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 57 57 / var(--tw-border-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -623,6 +676,10 @@ video {
           background-clip: text;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -634,10 +691,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
 }
 
 .text-center {
@@ -734,6 +787,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .lg\:w-96 {
     width: 24rem;
   }
