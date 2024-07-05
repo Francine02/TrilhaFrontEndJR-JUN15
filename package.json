@@ -2,7 +2,7 @@
   "name": "my-tailwind-project",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss build styles/style.css -o styles/output.css",
+    "build": "tailwindcss build -i styles/style.css -o styles/output.css",
     "dev": "tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
   "devDependencies": {
