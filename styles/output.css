@@ -619,6 +619,14 @@ video {
   margin-top: 6rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -673,6 +681,18 @@ video {
 
 .w-60 {
   width: 15rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 @keyframes slide {
@@ -835,6 +855,22 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
